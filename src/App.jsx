@@ -11,7 +11,7 @@ import Contact from './Pages/Primary/Contact';
 
 /* Pages: Course Work ---------------------------*/
 import CourseWorkLayout from './Pages/CourseWork/CourseWorkLayout';
-import Essays from './Pages/CourseWork/Essays';
+import Essays from './Pages/CourseWork/Essays/Essays';
 import SunAndMoon from './Pages/CourseWork/SunAndMoon/SunAndMoon';
 
 const App = () => {
