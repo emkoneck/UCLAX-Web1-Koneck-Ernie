@@ -8,14 +8,16 @@ import MediumLarge from './MediumLarge';
 import Small from './Small';
 
 const Header = () => {
+
+    const { isMediumAndUp } = useMediaQuery();
+
     return (
         <HeaderStyled className="Header">
             { isMediumAndUp ?  <MediumLarge /> : <Small /> }
-
         </HeaderStyled>
     );
 };
-
 export default Header;
 
 const HeaderStyled = styled.header``;
+

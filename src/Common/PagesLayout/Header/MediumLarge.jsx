@@ -7,8 +7,8 @@ import SiteLogo from '../SiteLogo/SiteLogo.jsx';
 
 const MediumLarge = () => {
     return (
-        <MediumLargeStyled className='MediumLarge'>
-             <Inset>
+        <MediumLargeStyled className="MediumLarge">
+            <Inset>
                 <div className="inset">
                     <div className="logo">
                         <SiteLogo />
@@ -27,9 +27,12 @@ const MediumLarge = () => {
             </Inset>
         </MediumLargeStyled>
     );
-}
-const HeaderStyled = styled.header`
-color: white;
+};
+
+export default MediumLarge;
+
+const MediumLargeStyled = styled.header`
+    color: white;
 
     .logo {
         .SiteLogo {
@@ -40,7 +43,9 @@ color: white;
     }
 
     nav.mainMenu {
-            text-align: center;
+        text-align: center;
+
+        a {
             width: 80px;
             display: inline-block;
             line-height: 30px;
@@ -64,9 +69,5 @@ color: white;
                 border-bottom-color: white;
             }
         }
-
-export default 'MediumLarge';
-
-const MediumLargeStyled = styled.div``
-
+    }
 `;
