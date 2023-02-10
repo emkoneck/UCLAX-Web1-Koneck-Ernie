@@ -2,13 +2,13 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 /* Components ---------------------------*/
-import Inset from './Inset.jsx';
-import SiteLogo from './SiteLogo/SiteLogo.jsx';
+import Inset from '../Inset.jsx';
+import SiteLogo from '../SiteLogo/SiteLogo.jsx';
 
-const Header = () => {
+const MediumLarge = () => {
     return (
-        <HeaderStyled className="Header">
-            <Inset>
+        <MediumLargeStyled className='MediumLarge'>
+             <Inset>
                 <div className="inset">
                     <div className="logo">
                         <SiteLogo />
@@ -25,14 +25,11 @@ const Header = () => {
                     </div>
                 </div>
             </Inset>
-        </HeaderStyled>
+        </MediumLargeStyled>
     );
-};
-
-export default Header;
-
+}
 const HeaderStyled = styled.header`
-    color: white;
+color: white;
 
     .logo {
         .SiteLogo {
@@ -43,16 +40,12 @@ const HeaderStyled = styled.header`
     }
 
     nav.mainMenu {
-        text-align: center;
-        a {
+            text-align: center;
             width: 80px;
             display: inline-block;
-
             line-height: 30px;
             margin: 0px 0px 20px 5px;
             border-bottom: solid 3px #84d4d4;
-
-            text-align: center;
             font-size: 12px;
             opacity: 0.8;
             color: #84d4d4;
@@ -71,5 +64,9 @@ const HeaderStyled = styled.header`
                 border-bottom-color: white;
             }
         }
-    }
+
+export default 'MediumLarge';
+
+const MediumLargeStyled = styled.div``
+
 `;

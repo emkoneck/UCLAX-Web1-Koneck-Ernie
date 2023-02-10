@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
-const Essay = () => {
+const Essay = ({question, children}) => {
     return (
         <EssayStyled className='Essay'>
-            <h3>Question/Request</h3>
+            <h3>{question}</h3>
             <div className="answer">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit fugit modi numquam, cum maiores sunt eveniet soluta, dicta perferendis earum nobis nisi harum nesciunt quia officia. Perferendis deleniti culpa iusto!
+                {children}
             </div>
         </EssayStyled>
     );
@@ -14,5 +14,20 @@ const Essay = () => {
 export default Essay;
 
 const EssayStyled = styled.div`
+    margin: 20px 0px;
+    border: solid 2px #014444;
+
+    h3 {
+        background-color: #014444;
+        padding: 10px 20px;
+        color: whitesmoke;
+        font-size: 20px;
+        margin: 0px;
+    }
+
+    .answer {
+        background-color: #eee;
+        padding: 20px;
+    }
 
 `;
