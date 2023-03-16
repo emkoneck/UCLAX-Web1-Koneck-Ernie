@@ -11,7 +11,7 @@ const Contact = () => {
     const [submissions, submissionsUpdate] = useState([]);
 
     const getSubmissions = async () => {
-        const { data } = await axios.get("http://localhost:3011/submissions");
+        const { data } = await axios.get("http://localhost:3010/submissions");
             submissionsUpdate(data);
     }
 
