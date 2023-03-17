@@ -6,9 +6,8 @@
     "scripts": {
         "start": "vite",
         "build": "vite build",
-        "server": "json-server --watch ./src/api-server/emails-db.json --port 3010",
+        "server": "json-server --watch ./src/api-server/emails-db.json --port 4050",
         "preview": "vite preview"
-
     },
     "dependencies": {
         "@fortawesome/fontawesome-svg-core": "^6.3.0",
