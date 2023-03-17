@@ -26,7 +26,7 @@ const Contact = () => {
         <ContactStyled className='Contact'>
             < Inset >
                 <h1>Contact</h1>
-                <Form />
+                <Form getSubmissions={ getSubmissions }/>
                 <SubmissionList submissions={ submissions }/>
             </Inset>
         </ContactStyled>

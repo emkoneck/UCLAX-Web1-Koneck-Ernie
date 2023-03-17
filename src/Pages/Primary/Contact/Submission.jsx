@@ -11,5 +11,7 @@ const Submission = ({submission}) => {
 export default Submission;
 
 const SubmissionStyled = styled.div`
-
+    outline: solid 1px #999;
+    padding: 10px;
+    margin: 10px 0px;
 `;

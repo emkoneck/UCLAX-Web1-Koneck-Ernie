@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import styled from 'styled-components';
 import { v4 as uuidv4 } from 'uuid';
+import axios from 'axios';
 
-const Form = () => {
+const Form = ({ getSubmissions }) => {
 
     //NAME
     const [inputName, inputNameUpdate] = useState('Slim Shady');
@@ -25,7 +26,7 @@ const Form = () => {
             inputMessageUpdate(theValue);
     }
 
-    const onSubmit = (e) =>{
+    const onSubmit = async (e) =>{
         e.preventDefault();
 
         const postData = {
@@ -35,8 +36,8 @@ const Form = () => {
             message: inputMessage,
         }
 
-        console.log({postData});
-
+        await axios.post("http://localhost:4050/submissions", postData );
+        getSubmissions ();
     }
 
     return (
