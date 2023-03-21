@@ -39,7 +39,6 @@ export default SunAndMoon;
 const SunAndMoonStyled = styled.div`
     .sunMoonImage {
         text-align: center;
-
         img {
             border: solid 20px teal;
             margin: 30px;
@@ -48,3 +47,4 @@ const SunAndMoonStyled = styled.div`
         }
     }
 `;
+

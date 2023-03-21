@@ -6,7 +6,7 @@ import PagesLayout from './Common/PagesLayout/PagesLayout';
 /* Pages: Primary ---------------------------*/
 import PrimaryLayout from './Pages/Primary/PrimaryLayout';
 import Home from './Pages/Primary/Home/Home';
-import Staff from './Pages/Primary/Staff/Staff';
+import Albums from './Pages/Primary/Albums/Albums';
 import Contact from './Pages/Primary/Contact/Contact';
 
 /* Pages: Course Work ---------------------------*/
@@ -21,7 +21,7 @@ const App = () => {
             <Route element={ <PagesLayout /> }>
                 <Route element={ <PrimaryLayout /> } path="">
                     <Route element={ <Home /> } path="" />
-                    <Route element={ <Staff /> } path="staff" />
+                    <Route element={ <Albums /> } path="albums" />
                     <Route element={ <Contact /> } path="contact" />
                 </Route>
 

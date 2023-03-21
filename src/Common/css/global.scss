@@ -8,11 +8,11 @@
 ---------------------------*/
 html, body {
     margin: 0;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Futura, Helvetica, Arial, sans-serif;
 }
 body {
     overflow-y: scroll;
-    background-color: #014444;
+    background-color: #bf286f;
     min-width: 300px;
 }
 
@@ -27,9 +27,9 @@ body.modal-open {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura', sans-serif;
     margin: 0px 0px 15px;
-    color: #014444;
+    color: #a7087d;
 }
 
 p {
@@ -45,9 +45,9 @@ li {
     }
 }
 
-h1, h2 { font-weight: 700; }
+h1, h2 { font-weight: 500; }
 h3, h4 { font-weight: 500; }
-h5, h6 { font-weight: 400; }
+h5, h6 { font-weight: 500; }
 
 h1 { font-size: 50px; }
 h2 { font-size: 40px; }

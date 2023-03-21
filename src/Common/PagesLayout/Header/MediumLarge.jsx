@@ -18,9 +18,10 @@ const MediumLarge = () => {
                             <NavLink to={'/'} end>
                                 Home
                             </NavLink>
-                            <NavLink to={'/staff'}>Staff</NavLink>
-                            <NavLink to={'/contact'}>Contact</NavLink>
-                            <NavLink to={'/course-work'}>Course</NavLink>
+                            <NavLink to={'/albums'}>Albums</NavLink>
+                            <NavLink to={'/tour'}>Tour</NavLink>
+                            <NavLink to={'/merch'}>Merch</NavLink>
+                            <NavLink to={'/course-work'}>Video</NavLink>
                         </nav>
                     </div>
                 </div>
@@ -51,6 +52,7 @@ const MediumLargeStyled = styled.header`
             width: 80%;
             margin: auto;
             padding: 20px 0px;
+            position: center;
         }
     }
 

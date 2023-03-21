@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-ms-box-orient"
+        ]
+      }
+    ],
+    "typescript-config/consistent-casing": "off"
+  }
+}

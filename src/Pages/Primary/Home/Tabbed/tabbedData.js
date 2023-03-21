@@ -1,24 +1,31 @@
-import image1 from './img/Alex-Esqueda-Box-Jump.jpg';
-import image2 from './img/Tire-Flip.jpg';
-import image3 from './img/Kids.jpg';
+import image1 from './img/kevin_parker.jpg';
+import image2 from './img/yellow_concert.jpg';
+import image3 from './img/psych_elephant.jpg';
+import image4 from './img/home_studio.jpg';
 
 export const tabbedData = [
     {
         id: 1,
         image: image1,
         title: 'About',
-        text: '<p>Join a <b>community</b> of people working hard every day to live a better quality of life, and have fun doing it!  At CrossFit Decimate, we provide inclusive programming, individualized modifications, and top-trained coaches to give you the best fitness journey  to fit your lifestyle.</p>',
+        text: '<p>Tame Impala is the psychedelic music project of Australian multi-instrumentalist <b>Kevin Parker</b>. Parker write, records, performs and produces all of the project`s music. As a touring act, the band consists of Parker, Dominic Simper, Jay Watson, Cam Avery and Julien Barbagallo.</p>',
     },
     {
         id: 2,
         image: image2,
-        title: 'Mission',
-        text: '<p>At Decimate, we believe that just like your fitness journey, nutrition is not a “one size fits all”.  Our highly trained nutrition coaches work alongside you to help you achieve your optimal health and fitness goals.  Through one-on-one coaching and personalized nutrition programming, our coaches are able to determine the best nutrition plan for you.</p>',
+        title: 'History',
+        text: '<p>Parker originally conceived of the project in 2007 in Perth, Australia. He started recording at home and posting tracks to MySpace (remember them?). He was signed to Modular Recordings in 2008 and began performing live with the help of Dominic Simper (bass) and Jay Watson (drums). A self-titled EP followed and then they toured with The Black Keys and MGMT, among others. Their debut album <b>Innerspeaker</b> was released in 2010. Three more sutdio albums and two live albums followed.</p>',
     },
     {
         id: 3,
         image: image3,
-        title: 'Vision',
-        text: '<p>With our highly qualified and trained coach, Kara Smith, CrossFit Decimate is able to provide adaptive and inclusive workouts for each individual athlete, whether you are injured or working with a disability.  At CrossFit Decimate we believe that all people can workout and want to workout, they just need to be guided on how to achieve their goals.  Coach Kara offers modifications to each workout to help each athlete achieve their own level of success.  </p>',
+        title: 'Influences',
+        text: '<p>Parker`s music is heavily influenced by psychedelic rock from the late 1960s and early 1970s. He has stated he has a "fetish for extremely sugary pop music" from the likes of Britney Spears and Kylie Minogue. He sometimes balances the two with combinations of loud guitars and strong, but ethereal melodies. Since the 2015 release of <b>Currents</b>, he has also been strongly influenced by electronic music. </p>',
+    },
+    {
+        id: 4,
+        image: image4,
+        title: 'Musical Style',
+        text: '<p>Parker makes the music for Tame Impala by himself in the studio. He layers instruments, vocals and effects into a <b>"symphony of sound"</b>. He often incorporates effects like reverb, fuzz, phasing and delay, sometimes in unexpected ways. He experiments a lot with equipment to create new and unique sounds. It is only after the music has been recorded that he assembles the touring band to play live.</p>',
     },
 ];

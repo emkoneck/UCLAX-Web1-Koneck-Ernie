@@ -9,5 +9,5 @@ export default Inset;
 const InsetStyled = styled.div`
     max-width: 1200px;
     margin: auto;
-    padding: 0px 10px;
+    padding: none;
 `;

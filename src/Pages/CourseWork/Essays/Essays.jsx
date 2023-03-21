@@ -100,6 +100,25 @@ PNG file sizes are generally much larger than JPGs or GIFs, so they take longer 
 SVGs are used for graphs, charts, navigation buttons and logos, including animation. Because they aren’t pixel-based, they aren’t as good as JPGs for photographs. As the newest of these file formats, they aren’t always supported by older web browsers.
 
             </Essay>
+
+            <Essay question= 'Q7. Agile Development Roles.'>
+
+            <h5>Product Owner</h5> Responsible for managing the product backlog to accomplish the product development team’s desired goals. Key tasks include identifying, describing, and prioritizing backlog items, as well as determining if a product backlog item has been satisfactorily delivered.<br />
+<br />
+<h5>Product Manager</h5>The person who identifies the customer need and the business objectives that a product will fulfill, articulates what success looks like for a product and motivates the team to turn that vision into a reality.<br />
+<br />
+<h5>Business Analyst</h5>Determines the requirements of a product and communicates them to stakeholders. Identifies and defines opportunities for improvements in processes and knows how to translate this understanding into IT solution requirements.<br />
+<br />
+<h5>Scrum Master</h5>Scrum is a framework for project management, designed for teams of 10 or fewer members who break their work into goals that are completed within time frames called sprints. Acts as a coach to the rest of the team. Helps the Product Owner plan the work of the team and helps the team organize, focus on outcome and manage blockers.<br />
+<br />
+<h5>UX Designer</h5> User experience designers define the experience a user goes through when interacting with its products.   Concerned with usability, usefulness, desirability, brand perception and overall performance of the product.<br />
+<br />
+<h5>Developer/Engineer</h5>In an Agile environment, developers write code, but have additional responsibilities, including management of individual tasks, working in a team environment, participating in testing and quality control, and interacting with other team members to clarify requirements.<br />
+<br />
+<h5>QA/SDET</h5>QA is typically involved in manual testing of apps and websites. SDETs - Software Development Engineers in Test - focus on automated test planning, framework creation and automated test support. SDETs often work with developers to understand the code itself, while QA typically is involved after the code has been written.<br />
+<br />
+<h5>DevOps</h5>Integrates and automates the work of software development and IT operations to improve and shorten the systems development life cycle. Development and operations teams are often merged to work across the entire application lifecycle. DevOps Engineers are IT generalists with knowledge of coding, infrastructure management, systems administration and DevOps toolchains, as well as strong interpersonal skills to create a more collaborative environment.<br />
+            </Essay>
         </EssaysStyled>
     );
 }

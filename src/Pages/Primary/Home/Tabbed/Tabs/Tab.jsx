@@ -17,8 +17,9 @@ const Tab = ( { tab, curTab, curTabUpdate }) => {
 export default Tab;
 
 const TabStyled = styled.div`
-    background-color: #014444;
-    color: #17b1b1;
+    font-family: Futura, sans-serif;
+    background-color: #f16522;
+    color: #34123d;
     text-align: center;
     cursor: pointer;
     border-radius: 5px 5px 0px 0px;
@@ -27,10 +28,11 @@ const TabStyled = styled.div`
 
     display: inline-block;
 
-    width: clamp(75px, 20%, 150px);
+    width: clamp(95px, 15%, 290px);
 
     &.selected {
-        background-color: teal;
+        font-family: Futura, sans-serif;
+        background-color: #be1a8c;
         color: white;
     }
 `;

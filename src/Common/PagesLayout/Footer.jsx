@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 /* Components ---------------------------*/
 import Inset from './Inset.jsx';
-import SiteLogo from './SiteLogo/SiteLogo.jsx';
+import SiteLogo from './SiteLogo/SiteLogoRev.jsx';
+import Links from './Links.jsx';
 
 const Footer = () => {
     return (
@@ -12,11 +13,11 @@ const Footer = () => {
                     <SiteLogo />
                 </div>
                 <h2>
-                    CrossFit Decimate :: Peace, Love, Unity, Fitness, Chill, and Respect :: Colorado Springs, CO
+                    f r o m___o n e___c o m e___m a n y
+                    <p></p>Perth, Australia
+                    <p></p>2023. All rights reserved.
                 </h2>
-                <div className="copyright">
-                    &copy; 2023. All rights reserved.
-                </div>
+
             </Inset>
         </FooterStyled>
     );
