@@ -7,13 +7,9 @@ import PagesLayout from './Common/PagesLayout/PagesLayout';
 import PrimaryLayout from './Pages/Primary/PrimaryLayout';
 import Home from './Pages/Primary/Home/Home';
 import Albums from './Pages/Primary/Albums/Albums';
-import Contact from './Pages/Primary/Contact/Contact';
-
-/* Pages: Course Work ---------------------------*/
-import CourseWorkLayout from './Pages/CourseWork/CourseWorkLayout';
-import Essays from './Pages/CourseWork/Essays/Essays';
-import SunAndMoon from './Pages/CourseWork/SunAndMoon/SunAndMoon';
-import Responsive from './Pages/CourseWork/Responsive';
+import Tour from './Pages/Primary/Tour/Tour';
+import Merch from './Pages/Primary/Merch/Merch';
+import Video from './Pages/Primary/Video/Video';
 
 const App = () => {
     return (
@@ -22,13 +18,9 @@ const App = () => {
                 <Route element={ <PrimaryLayout /> } path="">
                     <Route element={ <Home /> } path="" />
                     <Route element={ <Albums /> } path="albums" />
-                    <Route element={ <Contact /> } path="contact" />
-                </Route>
-
-                <Route element={ <CourseWorkLayout /> } path="course-work">
-                    <Route element={ <Essays /> } path="" />
-                    <Route element={ <SunAndMoon /> } path="sun-and-moon" />
-                    <Route element={ <Responsive />} path="responsive" />
+                    <Route element={ <Tour /> } path="tour" />
+                    <Route element={ <Merch /> } path="merch" />
+                    <Route element={ <Video /> } path="video" />
                 </Route>
             </Route>
         </Routes>

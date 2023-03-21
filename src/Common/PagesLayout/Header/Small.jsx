@@ -65,7 +65,7 @@ const SmallStyled = styled.div`
     justify-content: center;
 
     .SiteLogo {
-        height: 300px;
+        height: 90px;
         padding: 20px;
         max-width: 330px;
 
@@ -74,10 +74,11 @@ const SmallStyled = styled.div`
     .mainMenu {
         position: fixed;
 
-        top: 300px;
+        top: 90px;
         right: 0px;
         left: 0px;
         bottom: 0px;
+        z-index: 1000;
 
         a {
             display: block;
@@ -85,14 +86,15 @@ const SmallStyled = styled.div`
             padding: 10px;
             border-bottom: 1px solid #999999;
             color: white;
+            font-weight: bold;
             text-decoration: none;
 
-            background-color: #034444;
+            background-color: #eb008b;
 
             &:hover,
             &:active,
             &focus {
-                background-color: #06686a;
+                background-color: #9e1f63;
             }
 
         }

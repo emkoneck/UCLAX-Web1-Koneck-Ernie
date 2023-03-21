@@ -20,7 +20,7 @@ const SiteLogoStyled = styled.div`
 
 
     img {
-        width: 300%;
+        max-width: 100%;
         height: auto;
         position: center;
     }

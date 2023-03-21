@@ -19,6 +19,7 @@ export default Tab;
 const TabStyled = styled.div`
     font-family: Futura, sans-serif;
     background-color: #f16522;
+    font-weight: bold;
     color: #34123d;
     text-align: center;
     cursor: pointer;
@@ -32,6 +33,8 @@ const TabStyled = styled.div`
 
     &.selected {
         font-family: Futura, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
         background-color: #be1a8c;
         color: white;
     }

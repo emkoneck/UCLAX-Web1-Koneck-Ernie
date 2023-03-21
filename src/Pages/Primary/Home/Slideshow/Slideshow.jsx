@@ -13,5 +13,10 @@ const Slideshow = () => {
 export default Slideshow;
 
 const SlideshowStyled = styled.div`
-
+.carousel .slide .legend {
+    background-color: magenta;
+    color: #f9ec31;
+    font-weight: bolder;
+    font-size: 14px;
+}
 `;

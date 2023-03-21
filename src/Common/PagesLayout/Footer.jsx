@@ -3,7 +3,6 @@ import styled from 'styled-components';
 /* Components ---------------------------*/
 import Inset from './Inset.jsx';
 import SiteLogo from './SiteLogo/SiteLogoRev.jsx';
-import Links from './Links.jsx';
 
 const Footer = () => {
     return (
@@ -17,6 +16,9 @@ const Footer = () => {
                     <p></p>Perth, Australia
                     <p></p>2023. All rights reserved.
                 </h2>
+                <div className="social">
+                    <a href="https://facebook.com/" target='_blank'>FB</a>
+                </div>
 
             </Inset>
         </FooterStyled>

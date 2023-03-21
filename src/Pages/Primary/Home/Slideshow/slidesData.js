@@ -9,31 +9,31 @@ export const slidesData = [
     {
         id: 1,
         image: slide1,
-        title: 'The Band',
+        title: 'T H E • B A N D',
     },
     {
         id: 2,
         image: slide2,
-        title: 'The Tour',
+        title: 'T H E • T O U R',
     },
     {
         id: 3,
         image: slide3,
-        title: 'The Music',
+        title: 'T H E • M U S I C',
     },
     {
         id: 4,
         image: slide4,
-        title: 'The Performance',
+        title: 'T H E • P E R F O R M A N C E',
     },
     {
         id: 5,
         image: slide5,
-        title: 'The Experience',
+        title: 'T H E • E X P E R I E N C E',
     },
     {
         id: 6,
         image: slide6,
-        title: 'The Impact',
+        title: 'T H E • I M P A C T',
     },
 ]
