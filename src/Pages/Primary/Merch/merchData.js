@@ -1,10 +1,10 @@
-import image1 from './img/Innerspeaker.png';
-import image2 from './img/Live_at_the_Corner.png';
-import image3 from './img/Lonerism.png';
-import image4 from './img/Live_Versions.jpg';
-import image5 from './img/Currents.png';
-import image6 from './img/The_Slow_Rush.png';
-import image7 from './img/Singles_Collection.png';
+import image1 from './img/merch1.png';
+import image2 from './img/merch1.png';
+import image3 from './img/merch1.png';
+import image4 from './img/merch1.png';
+import image5 from './img/merch1.png';
+import image6 from './img/merch1.png';
+import image7 from './img/merch1.png';
 
 export const albumsData = [
     {
