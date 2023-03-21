@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Video = () => {
     return (
         <VideoStyled className='Video'>
-            Video
+                <h1>VIDEO</h1>
         </VideoStyled>
     );
 }

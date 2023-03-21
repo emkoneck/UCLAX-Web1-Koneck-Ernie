@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Tour = () => {
     return (
         <TourStyled className='Tour'>
-            Tour
+            <h1>TOUR</h1>
         </TourStyled>
     );
 }

@@ -7,10 +7,7 @@ import Inset from '@/Common/PagesLayout/Inset';
 const Merch = () => {
     return (
         <MerchStyled className='Merch'>
-            <Inset >
                 <h1>MERCH</h1>
-                <MerchList />
-            </Inset>
         </MerchStyled>
     );
 }
