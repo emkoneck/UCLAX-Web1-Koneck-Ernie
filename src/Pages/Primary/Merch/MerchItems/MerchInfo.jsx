@@ -7,7 +7,7 @@ const MerchInfo = () => {
     return (
         <MerchInfoStyled className='MerchInfo'>
             <div className="year">
-                <b>Year Released: </b>{ member.yearReleased }</div>
+                <b>Price: </b>{ member.price }</div>
             <FeatureList member= { member }/>
         </MerchInfoStyled>
     );

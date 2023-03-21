@@ -26,7 +26,6 @@ const Small = () => {
             //remove class modal-open
             document.body.classList.remove ('modal-open');
         }
-
         return () => {
             document.body.classList.remove ('modal-open');
         }
@@ -49,7 +48,7 @@ const Small = () => {
                  <NavLink to={'/albums'}>Albums</NavLink>
                             <NavLink to={'/tour'}>Tour</NavLink>
                             <NavLink to={'/merch'}>Merch</NavLink>
-                            <NavLink to={'/course-work'}>Video</NavLink>
+                            <NavLink to={'/video'}>Video</NavLink>
             </nav>
          )}
         </SmallStyled>
