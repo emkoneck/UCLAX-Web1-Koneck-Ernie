@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 /* Images ---------------------------*/
-import logoUrl from './rev logo.png';
+import logoUrl from './rev_logo.png';
 
 const SiteLogoRev = () => {
     return (

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 /* Images ---------------------------*/
-import logoUrl from './TI black logo.png';
+import logoUrl from './TI_black_logo.png';
 
 const SiteLogo = () => {
     return (
