@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 /* Data ---------------------------*/
-import { tourData } from './tourData';
+import { tourData } from './tourData.js';
 
 /* Components ---------------------------*/
 import TourItem from './TourItem';
@@ -11,7 +11,7 @@ const TourList = () => {
         <TourListStyled className='TourList'>
             {
                 tourData.map((member) => {
-                    return <TourItem key={ member.place } member={ member } />
+                    return <TourItem key={ member.id } member={ member } />
                 })
             }
         </TourListStyled>

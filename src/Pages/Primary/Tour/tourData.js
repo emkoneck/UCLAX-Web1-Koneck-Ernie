@@ -74,24 +74,18 @@ export const tourData = [
     },
     {
         id: 13,
-        date: '11.02',
+        date: '11.02 and 11.03',
         place: 'Los Angeles, CA',
         venue: 'Hollywood Bowl',
     },
     {
         id: 14,
-        date: '11.03',
-        place: 'Los Angeles, CA',
-        venue: 'Hollywood Bowl',
-    },
-    {
-        id: 15,
         date: '11.07',
         place: 'Austin, TX',
         venue: 'Frank Erwin Center',
     },
     {
-        id: 16,
+        id: 15,
         date: '11.09',
         place: 'Dallas, TX',
         venue: 'American Airlines Center',

@@ -1,9 +1,8 @@
 import styled from 'styled-components';
 
-/* Data ---------------------------*/
-import tourData from './tourData.js'
 
-const TourInfo = () => {
+
+const TourInfo = ({member}) => {
     return (
         <TourInfoStyled className='TourInfo'>
             <div className="date">

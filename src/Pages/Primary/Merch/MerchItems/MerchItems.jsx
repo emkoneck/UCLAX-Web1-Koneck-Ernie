@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 /* Components ---------------------------*/
-import MerchInfo from './MerchInfo';
+import {MerchInfo} from './MerchInfo';
 
 const MerchItems = ({ member}) => {
     return (
