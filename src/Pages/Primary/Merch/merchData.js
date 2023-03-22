@@ -13,6 +13,7 @@ export const merchData = [
         id: 1,
         image: image1,
         name: 'T-Shirt',
+        price: '$35',
         features: [
             'Super soft Lyocell/cotton blend',
             'Shrink- and fade-resistant',
@@ -24,6 +25,7 @@ export const merchData = [
         id: 2,
         image: image2,
         name: 'Long Sleeve Tee',
+        price: '$45',
         features: [
             'High tech thermal regulation keeps you cool all day',
             'Quick-drying with built-in odor control',
@@ -35,6 +37,7 @@ export const merchData = [
         id: 3,
         image: image3,
         name: 'V Neck Tee',
+        price: '$35',
         features: [
             'Pima cotton/nylon blend',
             'Moisture-wicking technology',
@@ -46,6 +49,7 @@ export const merchData = [
         id: 4,
         image: image4,
         name: 'Beanie',
+        price: '$25',
         features: [
             '100% natural',
             'Blend of plush merino wool and organic cotton',
@@ -56,6 +60,7 @@ export const merchData = [
         id: 5,
         image: image5,
         name: 'Hoodie',
+        price: '$60',
         features: [
             '100% organic cotton',
             'Classic fit',
@@ -67,6 +72,7 @@ export const merchData = [
         id: 6,
         image: image6,
         name: 'Backpack',
+        price: '$95',
         features: [
             'Classic 17-inch backpack',
             'Adjustable padded shoulder straps',
@@ -78,6 +84,7 @@ export const merchData = [
         id: 7,
         image: image7,
         name: 'Yoga Mat',
+        price: '$60',
         features: [
             'Collection includes 11 songs not previously released as album tracks',
             'Durable and comfortable manufacturing',
@@ -89,6 +96,7 @@ export const merchData = [
         id: 8,
         image: image8,
         name: 'Water Bottle',
+        price: '$20',
         features: [
             '24 oz. leak-proof aluminum bottle',
             'Screw cap and easy-carry handle. Lightweight',
@@ -100,6 +108,7 @@ export const merchData = [
         id: 9,
         image: image9,
         name: 'Poster',
+        price: '$30',
         features: [
             'Choose from jumbo 30`` x 42`` or standard-size 18`` x 28``',
             'Printed on heavy-duty 100 lb. matte cover stock',

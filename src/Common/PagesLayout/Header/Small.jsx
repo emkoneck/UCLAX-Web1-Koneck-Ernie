@@ -82,8 +82,8 @@ const SmallStyled = styled.div`
         a {
             display: block;
 
-            padding: 10px;
-            border-bottom: 1px solid #999999;
+            padding: 5px;
+            border-bottom: 1px solid #d6de23;
             color: white;
             font-weight: bold;
             text-decoration: none;

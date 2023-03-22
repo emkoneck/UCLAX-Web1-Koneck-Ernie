@@ -1,9 +1,14 @@
 import styled from 'styled-components';
 
+/* Components ---------------------------*/
+import Inset from '@/Common/PagesLayout/Inset';
+
 const Video = () => {
     return (
         <VideoStyled className='Video'>
-                <h1>VIDEO</h1>
+                <Inset >
+                    <h1>VIDEO</h1>
+                </Inset>
         </VideoStyled>
     );
 }
