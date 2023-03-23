@@ -3,6 +3,8 @@ import styled from 'styled-components';
 /* Components ---------------------------*/
 import Inset from './Inset.jsx';
 import SiteLogo from './SiteLogo/SiteLogoRev.jsx';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
@@ -17,7 +19,8 @@ const Footer = () => {
                     <p></p>2023. All rights reserved.
                 </h2>
                 <div className="social">
-                    <a href="https://facebook.com/" target='_blank'>FB</a>
+                    <a href="https://www.instagram.com/tameimpala" target='_blank'><FontAwesomeIcon icon={ faInstagram }/></a>
+                    <a href="https://www.twitter.com/tameimpala/" target='_blank'><FontAwesomeIcon icon={ faTwitter } /></a>
                 </div>
 
             </Inset>
@@ -54,4 +57,10 @@ const FooterStyled = styled.footer`
         color: white;
     }
 
-`;
+    .social {
+        display: block;
+        justify-content: space-around;
+    }
+
+
+    `;

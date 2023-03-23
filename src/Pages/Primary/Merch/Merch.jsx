@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 /* Components ---------------------------*/
+import MerchList from './MerchList';
 import Inset from '@/Common/PagesLayout/Inset';
 
 const Merch = () => {
@@ -8,6 +9,7 @@ const Merch = () => {
         <MerchStyled className='Merch'>
             <Inset>
                 <h1>MERCH</h1>
+                <MerchList />
             </Inset>
         </MerchStyled>
     );
@@ -16,6 +18,6 @@ const Merch = () => {
 export default Merch;
 
 const MerchStyled = styled.div`
-    color: white;
+    color: #9e1f63;
 
 `;
