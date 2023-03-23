@@ -107,10 +107,20 @@ export const merchData = [
     {
         id: 9,
         image: image9,
-        name: 'Poster',
+        name: '18x28 Poster',
         price: '$30',
         features: [
-            'Choose from jumbo 30`` x 42`` or standard-size 18`` x 28``',
+            '4-color Slow Rush tour graphics',
+            'Printed on heavy-duty 100 lb. matte cover stock',
+        ],
+    },
+    {
+        id: 10,
+        image: image9,
+        name: '30x42 Poster',
+        price: '$45',
+        features: [
+            '4-color Slow Rush tour graphics',
             'Printed on heavy-duty 100 lb. matte cover stock',
         ],
     },
