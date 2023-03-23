@@ -18,10 +18,12 @@ const Footer = () => {
                     <p></p>Perth, Australia
                     <p></p>2023. All rights reserved.
                 </h2>
-                <div className="social">
-                    <a href="https://www.instagram.com/tameimpala" target='_blank'><FontAwesomeIcon icon={ faInstagram }/></a>
-                    <a href="https://www.twitter.com/tameimpala/" target='_blank'><FontAwesomeIcon icon={ faTwitter } /></a>
+                &nbsp;
+                     <div className="social">
+                    <a href="https://www.instagram.com/tameimpala" target='_blank'><i class="fas fa-camera fa-3x"><FontAwesomeIcon icon={ faInstagram }/></i></a>
+                   &nbsp; <a href="https://www.twitter.com/tameimpala/" target='_blank'><i class="fas fa-camera fa-3x"><FontAwesomeIcon icon={ faTwitter } /></i></a>
                 </div>
+
 
             </Inset>
         </FooterStyled>
